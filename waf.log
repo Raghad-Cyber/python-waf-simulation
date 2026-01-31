@@ -1,0 +1,4 @@
+[2025-11-03T20:43:43.800848Z] BLOCKED ip=127.0.0.1 method=GET path=/ reason=pattern-match payload=1 UNION SELECT * FROM users
+[2025-11-03T21:02:35.393680Z] BLOCKED ip=127.0.0.1 method=POST path=/comment reason=pattern-match payload=comment <script>alert(1)</script>
+[2025-11-03T21:05:44.452172Z] BLOCKED ip=127.0.0.1 method=GET path=/../../../etc/passwd reason=pattern-match payload=../../../etc/passwd
+[2025-11-03T21:08:38.783900Z] BLOCKED ip=127.0.0.1 method=GET path=/ reason=pattern-match payload=who; cat /etc/passwd
